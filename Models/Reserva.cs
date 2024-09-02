@@ -40,10 +40,7 @@ namespace DesafioProjetoHospedagem.Models
 
         public decimal CalcularValorDiaria()
         {
-            if (Suite == null)
-            {
-            throw new InvalidOperationException("A suíte deve ser cadastrada para calcular o valor da diária.");
-            }
+
             
             decimal valor = DiasReservados* Suite.ValorDiaria;
             return valor = DiasReservados >=10 ? valor - valor/10: valor;
