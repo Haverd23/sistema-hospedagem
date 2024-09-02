@@ -14,8 +14,32 @@ O seu programa deverá cálcular corretamente os valores dos métodos da classe 
 2. O método ObterQuantidadeHospedes da classe Reserva deverá retornar a quantidade total de hóspedes, enquanto que o método CalcularValorDiaria deverá retornar o valor da diária (Dias reservados x valor da diária).
 3. Caso seja feita uma reserva igual ou maior que 10 dias, deverá ser concedido um desconto de 10% no valor da diária.
 
+## Como Usar
+Cadastrar Pessoa:
+Adicione uma ou mais pessoas que serão os hóspedes.
+
+Cadastrar Suite:
+Informe o tipo da suíte desejada.
+
+Cadastrar Dias de Reserva:
+Informe o número de dias para a reserva. Esta etapa vincula os hóspedes e a suíte com a reserva.
+
+Quantidade de Hóspedes:
+Após cadastrar os hóspedes, a suíte e os dias de reserva, você pode verificar a quantidade total de hóspedes cadastrados na reserva.
+
+Consultar Valor Total:
+Após a reserva ser configurada, você pode consultar o valor total da diária, incluindo possíveis descontos aplicados.
+
+Encerrar:
+Encerre o programa quando terminar suas operações.
+
+## Observações
+Ordem das Operações: É necessário seguir a ordem correta das etapas: primeiro, cadastrar as pessoas; depois, cadastrar a suíte; e, por último, cadastrar os dias da reserva. Somente após essas etapas, as opções 4 e 5 funcionarão corretamente.
+
+Configuração Padrão da Suíte: A suíte já vem configurada com uma capacidade máxima padrão para 2 hóspedes e uma diária de R$30,00. Caso precise alterar esses valores, ajuste a configuração conforme necessário.
+
+Validação de Dados: Certifique-se de que a suíte tenha capacidade suficiente para o número de hóspedes e que os dias da reserva sejam informados corretamente.
+
 
 ![Diagrama de classe estacionamento](diagrama_classe_hotel.png)
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
